@@ -26,7 +26,10 @@ function checkInputsRec(){
     });
 
     if (formRecIsValid){
-        console.log("certo")
+        console.log("certo"),
+         setTimeout(()=>{
+            document.location.reload(true)
+        }, "2500")
         
     }
     else{
