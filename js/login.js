@@ -42,7 +42,9 @@ function checkInputs(){
     });
 
     if (formIsValid){
-        console.log("certo")
+        console.log("certo"),setTimeout(()=>{
+            document.location.reload(true)
+        }, "1500")
     }
     else{
         console.log("errado")
